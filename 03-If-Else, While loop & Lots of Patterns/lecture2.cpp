@@ -142,4 +142,74 @@ int main()
     //     cout << endl;
     //     i = i + 1;
     // }
+
+    // Program for Loan
+
+    // char gender;
+    // cout << "Enter your gender:";
+    // cin >> gender;
+    // if (gender == 'm')
+    // {
+    //     int salary;
+    //     cout << "Enter your salary:";
+    //     cin >> salary;
+    //     if (salary >= 30000)
+    //     {
+    //         cout << "Your are male and you are able for loan" << endl;
+    //     }
+    //     else
+    //     {
+    //         cout << "Your salary is below than 30000 and you are not able for loan!" << endl;
+    //     }
+    // }
+    // else if (gender == 'f')
+    // {
+    //     int salary;
+    //     cout << "Enter your salary:";
+    //     cin >> salary;
+    //     if (salary >= 20000)
+    //     {
+    //         cout << "Your are Female and you are able for loan" << endl;
+    //     }
+    //     else
+    //     {
+    //         cout << "Your are Female your salary is below than 20000 and you are not able for loan!" << endl;
+    //     }
+    // }
+    // else
+    // {
+    //     cout << "Your gender is not valid";
+    // }
+
+    // Mini Calculator
+
+    // int a;
+    // int b;
+    // cout << "Enter First Value a : ";
+    // cin >> a;
+    // cout << "Enter Second Value b : ";
+    // cin >> b;
+    // char ch;
+    // cout << "Enter The Operator : ";
+    // cin >> ch;
+    // if (ch == '+')
+    // {
+    //     cout << "Addition of a + b = " << a + b;
+    // }
+    // else if (ch == '-')
+    // {
+    //     cout << "Subtraction of a - b = " << a - b;
+    // }
+    // else if (ch == '*')
+    // {
+    //     cout << "Multiplication of a * b = " << a * b;
+    // }
+    // else if (ch == '/')
+    // {
+    //     cout << "Division of a / b = " << a / b;
+    // }
+    // else
+    // {
+    //     cout << "You Enter invalid Operator";
+    // }
 }
