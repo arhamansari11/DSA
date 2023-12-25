@@ -109,20 +109,37 @@ int main()
     // }
 
     // 4=> Prime Number or not
-    int n;
-    cout << "Enter the number : ";
-    cin >> n;
-    int i = 2;
-    while (i < n)
-    {
-        if (n % i == 0)
-        {
-            cout << "Prime number for : " << i << endl;
-        }
-        else
-        {
-            cout << "Not Prime Number for : " << i << endl;
-        }
-        i = i + 1;
-    }
+    // int n;
+    // cout << "Enter the number : ";
+    // cin >> n;
+    // int i = 2;
+    // while (i < n)
+    // {
+    //     if (n % i == 0)
+    //     {
+    //         cout << "Prime number for : " << i << endl;
+    //     }
+    //     else
+    //     {
+    //         cout << "Not Prime Number for : " << i << endl;
+    //     }
+    //     i = i + 1;
+    // }
+
+    // 5=> Print Pattern
+    // int n;
+    // cout << "Enter the Number : ";
+    // cin >> n;
+    // int i = 1;
+    // while (i <= n)
+    // {
+    //     int j = 1;
+    //     while (j <= n)
+    //     {
+    //         cout << i;
+    //         j = j + 1;
+    //     }
+    //     cout << endl;
+    //     i = i + 1;
+    // }
 }
