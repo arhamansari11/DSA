@@ -15,7 +15,7 @@ int main()
 {
     // => Data Types
 
-    int a = 123;
+    // int a = 123;
     // cout << a << endl;
 
     // char b = 'a';
@@ -30,9 +30,9 @@ int main()
     // double d = 1.23;
     // cout << d << endl;
 
-    cout <<sizeof(a)<<endl;
+    // cout <<sizeof(a)<<endl;
 
-    // Type Casting  =>Type Casting means that we assign the value of one data type to another
+    // Type Casting  =>Type Casting changes the type of data
     // 1 Byte = 8 Bits
 
     // int a = 'a';
@@ -41,8 +41,47 @@ int main()
     // cout << ch << endl;
     // return 0;
 
+    // => Signed and Unsigned Values
+    // Signed values means we store both positive and negative integer in int data type.
+    // Unsigned values means we store only positive integer in int data type.
+    // Note: If we store negative value in unsigned its output is huge.
 
+    // unsigned int a = -18;
+    // cout << a << endl;
 
+    // 1=> Operators
+    // Arithemetic Operators
+
+    // + , - , * , / , %
+    // int a = 12;
+    // int b = 7;
+    // float c = static_cast<float>(a) / b;
+    // int c = a / b;
+    // cout << c << endl;
+
+    // 2=> Relational Operators
+    // = , == , === , < , > , >= , <= , !=
+    // int a = 12;
+    // int b = 13;
+
+    // bool first = (a == b);
+    // cout << first << endl;
+
+    // bool second = (a < b);
+    // cout << second << endl;
+
+    // bool third = (a > b);
+    // cout << third << endl;
+
+    // bool fourth = (a >= b);
+    // cout << fourth << endl;
+
+    // bool fifth = (a <= b);
+    // cout << fifth << endl;
+
+    // bool sixth = (a != b);
+    // cout << sixth << endl;
+
+    // Logical Operators
+    // && , || , !
 }
-
-
