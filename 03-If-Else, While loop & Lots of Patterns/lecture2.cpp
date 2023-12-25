@@ -45,26 +45,84 @@ int main()
     // }
 
     // 3=> Check wether the input is digit , upper case alphabet and lower case alphabet
-    char ch;
-    cout << "Enter the value of ch: ";
-    cin >> ch;
+    // char ch;
+    // cout << "Enter the value of ch: ";
+    // cin >> ch;
 
-    if (ch >= '0' && ch <= '9')
-    {
-        cout << "Your ch is Numeric" << endl;
-    }
-    else if (ch >= 'a' && ch <= 'z')
-    {
-        cout << "Your ch is Lower Case Alphabet" << endl;
-    }
-    else if (ch >= 'A' && ch <= 'Z')
-    {
-        cout << "Your ch is Upper Case Alphabet" << endl;
-    }
-    else
-    {
-        cout << "Your ch is neither a digit nor an alphabet letter" << endl;
-    }
+    // if (ch >= '0' && ch <= '9')
+    // {
+    //     cout << "Your ch is Numeric" << endl;
+    // }
+    // else if (ch >= 'a' && ch <= 'z')
+    // {
+    //     cout << "Your ch is Lower Case Alphabet" << endl;
+    // }
+    // else if (ch >= 'A' && ch <= 'Z')
+    // {
+    //     cout << "Your ch is Upper Case Alphabet" << endl;
+    // }
+    // else
+    // {
+    //     cout << "Your ch is neither a digit nor an alphabet letter" << endl;
+    // }
 
-    return 0;
+    // return 0;
+
+    // Loops
+
+    // 1=> Sum of all input numbers
+
+    // int n;
+    // cout << "Enter the number:";
+    // cin >> n;
+    // int i = 1;
+    // int sum = 0;
+    // while (i <= n)
+    // {
+    //     sum = sum + i;
+    //     i = i + 1;
+    // }
+    // cout << sum;
+
+    // 2=> Table of any Number
+    // int n;
+    // cout << "Enter the Number";
+    // cin >> n;
+    // int i = 1;
+    // int table = 1;
+    // while (i <= 10)
+    // {
+    //     cout << n * table <<" ";
+    //     i = i + 1;
+    //     table = i;
+    // }
+
+    // 3=> Print number from 1 to N
+    // int n;
+    // cout << "Enter The Number";
+    // cin >> n;
+    // int i = 1;
+    // while (i <= n)
+    // {
+    //     cout << i << " ";
+    //     i = i + 1;
+    // }
+
+    // 4=> Prime Number or not
+    int n;
+    cout << "Enter the number : ";
+    cin >> n;
+    int i = 2;
+    while (i < n)
+    {
+        if (n % i == 0)
+        {
+            cout << "Prime number for : " << i << endl;
+        }
+        else
+        {
+            cout << "Not Prime Number for : " << i << endl;
+        }
+        i = i + 1;
+    }
 }
