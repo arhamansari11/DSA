@@ -271,6 +271,51 @@ int main()
     // }
 
     // Pattern 15
+
+    // int n;
+    // cout << "Enter the Number : ";
+    // cin >> n;
+    // int row = 1;
+    // while (row <= n)
+    // {
+    //     int col = 1;
+    //     char ch = 'A' + n - row;
+    //     while (col <= row)
+    //     {
+    //         cout << ch;
+    //         ch = ch + 1;
+    //         col = col + 1;
+    //     }
+    //     cout << endl;
+    //     row = row + 1;
+    // }
+
+    // Pattern 16
+
+    // int n;
+    // cout << "Enter the Number : ";
+    // cin >> n;
+    // int row = 1;
+    // while (row <= n)
+    // {
+    //     int space = n - row;
+    //     while (space)
+    //     {
+    //         cout << " ";
+    //         space = space - 1;
+    //     }
+    //     int col = 1;
+    //     while (col <= row)
+    //     {
+    //         cout << "*";
+    //         col = col + 1;
+    //     }
+    //     cout << endl;
+    //     row = row + 1;
+    // }
+
+    // Patter 17
+
     int n;
     cout << "Enter the Number : ";
     cin >> n;
@@ -278,12 +323,16 @@ int main()
     while (row <= n)
     {
         int col = 1;
-        char ch = 'A' + n - row;
         while (col <= row)
         {
-            cout << ch;
-            ch = ch + 1;
+            cout << "*";
             col = col + 1;
+        }
+        int space = n - row;
+        while (space)
+        {
+            cout << " ";
+            space = space - 1;
         }
         cout << endl;
         row = row + 1;
