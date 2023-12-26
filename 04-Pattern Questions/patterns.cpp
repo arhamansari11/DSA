@@ -156,4 +156,136 @@ int main()
     // }
 
     // Pattern 9
+
+    // int n;
+    // cout << "Enter the Number : ";
+    // cin >> n;
+    // int row = 1;
+    // while (row <= n)
+    // {
+    //     int col = 1;
+    //     while (col <= n)
+    //     {
+    //         char start = 'A' + row - 1;
+    //         cout << start;
+    //         col = col + 1;
+    //     }
+    //     cout << endl;
+    //     row = row + 1;
+    // }
+
+    // Pattern 10
+
+    // int n;
+    // cout << "Enter the Number : ";
+    // cin >> n;
+    // int row = 1;
+    // char start = 'A';
+    // while (row <= n)
+    // {
+    //     int col = 1;
+    //     while (col <= n)
+    //     {
+    //         cout << start;
+    //         start = start + 1;
+    //         col = col + 1;
+    //     }
+    //     cout << endl;
+    //     row = row + 1;
+    // }
+
+    // Pattern 11
+
+    // int n;
+    // cout << "Enter the Number : ";
+    // cin >> n;
+    // int row = 1;
+    // while (row <= n)
+    // {
+    //     int col = 1;
+    //     while (col <= n)
+    //     {
+    //         char ch = 'A' + row + col - 2;
+    //         cout << ch;
+    //         col = col + 1;
+    //     }
+    //     cout << endl;
+    //     row = row + 1;
+    // }
+
+    // Pattern 12
+    // int n;
+    // cout << "Enter the Number : ";
+    // cin >> n;
+    // int row = 1;
+    // while (row <= n)
+    // {
+    //     int col = 1;
+    //     char ch = 'A' + row -1;
+    //     while (col <= row)
+    //     {
+    //         cout << ch;
+    //         col = col + 1;
+    //     }
+    //     cout << endl;
+    //     row = row + 1;
+    // }
+
+    // Pattern 13
+    // int n;
+    // cout << "Enter the Number : ";
+    // cin >> n;
+    // int row = 1;
+    // char ch = 'A';
+    // while (row <= n)
+    // {
+    //     int col = 1;
+    //     while (col <= n)
+    //     {
+    //         cout << ch;
+    //         ch = ch + 1;
+    //         col = col + 1;
+    //     }
+    //     cout << endl;
+    //     row = row + 1;
+    // }
+
+    // Pattern 14
+
+    // int n;
+    // cout << "Enter the Number : ";
+    // cin >> n;
+    // int row = 1;
+    // while (row <= n)
+    // {
+    //     int col = 1;
+    //     char ch = 'A' + row + col - 2;
+    //     while (col <= row)
+    //     {
+    //         cout << ch;
+    //         ch = ch + 1;
+    //         col = col + 1;
+    //     }
+    //     cout << endl;
+    //     row = row + 1;
+    // }
+
+    // Pattern 15
+    int n;
+    cout << "Enter the Number : ";
+    cin >> n;
+    int row = 1;
+    while (row <= n)
+    {
+        int col = 1;
+        char ch = 'A' + n - row;
+        while (col <= row)
+        {
+            cout << ch;
+            ch = ch + 1;
+            col = col + 1;
+        }
+        cout << endl;
+        row = row + 1;
+    }
 }
