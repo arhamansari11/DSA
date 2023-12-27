@@ -316,23 +316,96 @@ int main()
 
     // Patter 17
 
+    // int n;
+    // cout << "Enter the Number : ";
+    // cin >> n;
+
+    // int row = n;
+
+    // while (row >= 1)
+    // {
+    //     int col = 1;
+
+    //     while (col <= row)
+    //     {
+    //         cout << '*';
+    //         col = col + 1;
+    //     }
+
+    //     cout << endl;
+    //     row = row - 1;
+    // }
+
+    // Pattern 18
+    // int n;
+    // cout << "Enter the Number : ";
+    // cin >> n;
+
+    // int row = 1;
+    // while (row <= n)
+    // {
+    //     int space = 1;
+    //     while (space < row)
+    //     {
+    //         cout << " ";
+    //         space = space + 1;
+    //     }
+    //     int col = 1;
+    //     while (col <= n - row + 1)
+    //     {
+    //         cout << "*";
+    //         col = col + 1;
+    //     }
+
+    //     cout << endl;
+    //     row = row + 1;
+    // }
+
+    // Pattern 19
+
+    // int n;
+    // cout << "Enter the Number : ";
+    // cin >> n;
+    // int row = 1;
+    // while (row <= n)
+    // {
+    //     int space = 1;
+    //     while (space < row)
+    //     {
+    //         cout << " ";
+    //         space = space + 1;
+    //     }
+    //     int col = 1;
+    //     while (col <= n - row + 1)
+    //     {
+    //         cout << col;
+    //         col = col + 1;
+    //     }
+    //     cout << endl;
+    //     row = row + 1;
+    // }
+
+    // Pattern 20
+
     int n;
     cout << "Enter the Number : ";
     cin >> n;
     int row = 1;
     while (row <= n)
     {
-        int col = 1;
-        while (col <= row)
-        {
-            cout << "*";
-            col = col + 1;
-        }
         int space = n - row;
         while (space)
         {
             cout << " ";
             space = space - 1;
+        }
+        int col = 1;
+        int start = 1;
+        while (col <= row)
+        {
+            cout << start;
+            start = start + 1;
+            col = col + 1;
         }
         cout << endl;
         row = row + 1;
