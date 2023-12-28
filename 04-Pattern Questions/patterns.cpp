@@ -410,4 +410,113 @@ int main()
     //     cout << endl;
     //     row = row + 1;
     // }
+
+    // Pattern 21
+
+    // int n;
+    // cout << "Enter the Number : ";
+    // cin >> n;
+    // int row = 1;
+    // while (row <= n)
+    // {
+    //     int space = 1;
+    //     while (space < row)
+    //     {
+    //         cout << ' ';
+    //         space = space + 1;
+    //     }
+
+    //     int col = 1;
+    //     while (col <= n - row + 1)
+    //     {
+    //         cout << "* ";
+    //         col = col + 1;
+    //     }
+    //     cout << endl;
+    //     row = row + 1;
+    // }
+
+    // Pattern 22
+
+    // int n;
+    // cout << "Enter the Number : ";
+    // cin >> n;
+    // int row = 1;
+    // while (row <= n)
+    // {
+    //     int space = n - row;
+    //     while (space)
+    //     {
+    //         cout << " ";
+    //         space = space - 1;
+    //     }
+    //     int col = 1;
+    //     int start = 1;
+    //     while (col <= row)
+    //     {
+    //         cout << start;
+    //         start = start + 1;
+    //         col = col + 1;
+    //     }
+    //     while (col <= row)
+    //     {
+    //         cout << row;
+    //         col = col + 1;
+    //     }
+
+    //     int third = row - 1;
+    //     while (third)
+    //     {
+    //         cout << third;
+    //         third =  third - 1;
+    //     }
+
+    //     cout << endl;
+    //     row = row + 1;
+    // }
+
+    // Pattern 23 =>  Highest Pattern
+
+    int n;
+    cout << "Enter the Number : ";
+    cin >> n;
+    int row = 1;
+    while (row <= n)
+    {
+        // int space = row-1;
+        // while (space)
+        // {
+        //     cout << "*";
+        //     space = space - 1;
+        // }
+        int col = 1;
+        int start = 1;
+        while (col <= n - row + 1)
+        {
+            cout << start;
+            start = start + 1;
+            col = col + 1;
+        }
+        int space = row - 1;
+        while (space)
+        {
+            cout << "*";
+            space = space - 1;
+        }
+        int spac = row - 1;
+        while (spac)
+        {
+            cout << "*";
+            spac = spac - 1;
+        }
+        int next = n - row + 1;
+        while (next >= 1)
+        {
+            cout << next;
+            next = next - 1;
+        }
+
+        cout << endl;
+        row = row + 1;
+    }
 }
