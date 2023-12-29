@@ -18,6 +18,8 @@ The Repository is divided into several sections that cover the following topics:
     <li>Standard Template Library (STL) </li>
 
 </ul> 
+# Prerequisites
+Before starting the Repository, it is recommended that you have a basic understanding of computer programming concepts and familiarity with any programming language.
 
 # Requirements
 <ul>
