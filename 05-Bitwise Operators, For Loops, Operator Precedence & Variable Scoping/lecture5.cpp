@@ -17,6 +17,152 @@ int main()
     // cout << " " << ~b << endl;
     // cout << " " << (a ^ b) << endl;
 
-    int a = 4 << 2;
-    cout << a;
+    // Left Shift Operator
+    // Symbol of left shift Operator is << It means we round the digits from left side
+    // int a = 8 << 2;
+    // cout << a << endl;
+
+    // Right Shift Operator
+    // Symbol of Right shift Operator is << It means we round the digits from Right side
+
+    // int b = 4 >> 1;
+    // cout << b;
+
+    // Increament , Decreament
+
+    // int i = 8;
+    // cout << i++ << endl;
+    // cout << ++i << endl;
+    // cout << i-- << endl;
+    // cout << --i << endl;
+
+    // 5 Questions;
+
+    // 1st
+
+    // int a, b = 1;
+    // a = 10;
+    // if (++a)
+    // {
+    //     cout << b;
+    // }
+    // else
+    // {
+    //     cout << ++b;
+    // }
+
+    // 2nd Question,
+
+    // int a = 1;
+    // int b = 2;
+    // if (a-- > 0 && ++b > 2)
+    // {
+    //     cout << "Stage-1 Inside If" << endl;
+    // }
+    // else
+    // {
+    //     cout << "Stage-2 Inside Else";
+    // }
+    // cout << a << "" << b << endl;
+
+    // 3rd Questions,
+
+    // int a = 1;
+    // int b = 2;
+    // if (a-- > 0 || ++b > 2)
+    // {
+    //     cout << "Stage-1 Inside If" << endl;
+    // }
+    // else
+    // {
+    //     cout << "Stage-2 Inside Else";
+    // }
+    // cout << a << endl << b << endl;
+
+    // 4th Questions,
+
+    // int num = 3;
+    // cout << (25 * (++num));
+
+    // 5th Question,
+
+    // int a = 1;
+    // int b = a++;
+    // int c = ++a;
+    // cout << b << endl;
+    // cout << c;
+
+    // For Loop
+
+    // int n;
+    // cout << "Enter the Number";
+    // cin >> n;
+    // for (int i = 1; i <= n; i++)
+    // {
+    //     cout << i << endl;
+    // }
+
+    // Pattern using For Loop
+
+    // int n;
+    // cout << "Enter the Number : ";
+    // cin >> n;
+    // for (int row = 1; row <= n; row++)
+    // {
+    //     for (int col = 1; col <= n - row + 1; col++)
+    //     {
+    //         cout << col << " ";
+    //     }
+    //     for (int space = row - 1 ; space; space--)
+    //     {
+    //         cout << " *";
+    //     }
+
+    //     cout << endl;
+    // }
+
+    // For Loop Question
+
+    // int n;
+    // cout << "Enter the Number : ";
+    // cin >> n;
+    // int sum = 0;
+    // for (int i = 1; i <= n; i++)
+    // {
+    //     sum = sum + i;
+    // }
+    // cout << sum << endl;
+
+    // Fibonacci Series
+
+    // int n = 10;
+    // int a = 1;
+    // int b = 2;
+    // cout << a << " " << b << " ";
+    // for (int i = 1; i <= n; i++)
+    // {
+    //     int nextnum = a + b;
+    //     cout << nextnum << " ";
+    //     a = b;
+    //     b = nextnum;
+    // }
+
+    // Prime Number
+
+    int n ;
+    cout << "Enter the Number : ";
+    cin >> n;
+    for (int i = 2; i < n; i++)
+    {
+        if (n % i == 0)
+        {
+            cout << "Not a Prime Number" << endl;
+            break;
+        }
+        else
+        {
+            cout << "Prime Number" << endl;
+            break;
+        }
+    }
 }
