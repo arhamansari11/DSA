@@ -25,4 +25,10 @@ The Repository is divided into several sections that cover the following topics:
 <li>A text editor (e.g. Visual Studio Code, Sublime Text, etc.)</li>
 <li>A compiler (e.g. GCC, Visual Studio, etc.)</li>
 </ul>
+# Contributions
+
+Contributions to the Repository are welcome. If you find any errors or have suggestions for improvements, please submit a pull request or open an issue.
+
+# Disclaimer
+This Repository is provided as-is and does not guarantee a certain level of expertise in C++ programming. It is up to the individual to make the most of the material provided and practice regularly.
 
