@@ -19,7 +19,7 @@ The Repository is divided into several sections that cover the following topics:
 
 </ul> 
 
-# Requirements
+# Prerequisites
 Before starting the Repository, it is recommended that you have a basic understanding of computer programming concepts and familiarity with any programming language.
 
 # Requirements
@@ -34,4 +34,6 @@ Contributions to the Repository are welcome. If you find any errors or have sugg
 
 # Disclaimer
 This Repository is provided as-is and does not guarantee a certain level of expertise in C++ programming. It is up to the individual to make the most of the material provided and practice regularly.
+
+
 
