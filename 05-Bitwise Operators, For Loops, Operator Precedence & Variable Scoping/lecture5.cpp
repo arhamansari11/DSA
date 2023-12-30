@@ -165,4 +165,24 @@ int main()
     //         break;
     //     }
     // }
+
+    // Continue
+
+    // for (int i = 1; i <= 2; i++)
+    // {
+    //     cout << "Hello" << endl;
+    //     cout << "Hey" << endl;
+    //     continue;
+    //     cout << "ۨۨHello its end";
+    // }
+
+    // For Loop
+
+    // for (int i = 0; i <= 5; i++)
+    // {
+    //     for (int j = i; j <= 5; j++)
+    //     {
+    //         cout << i << " " << j << endl;
+    //     }
+    // }
 }
