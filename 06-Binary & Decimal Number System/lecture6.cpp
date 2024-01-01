@@ -13,17 +13,35 @@ int main()
     // }
     // cout << ans;
 
-    int num;
-    cout << "Enter the Number : ";
-    cin >> num;
-    int ans = 0;
-    int i = 0;
-    while (num != 0)
-    {
-        int bit = num & 1;
-        ans = (bit * pow(10, i)) + ans;
-        num = num >> 1;
-        i++;
-    }
-    cout << ans;
+    // int num;
+    // cout << "Enter the Number : ";
+    // cin >> num;
+    // int ans = 0;
+    // int i = 0;
+    // while (num != 0)
+    // {
+    //     int bit = num & 1;
+    //     ans = (bit * pow(10, i)) + ans;
+    //     num = num >> 1;
+    //     i++;
+    // }
+    // cout << ans;
+
+    //! decimal to binary +ve numbers
+    // int n;
+    // cout << "Enter the Number : ";
+    // cin >> n;
+    // int answer = 0;
+    // int i = 0;
+    // while (n != 0)
+    // {
+    //     int bit = n & 1;
+    //     answer = (bit * pow(10, i)) + answer;
+
+    //     n = n >> 1;
+    //     i++;
+    // }
+
+    // cout << answer << endl;
+
 }
