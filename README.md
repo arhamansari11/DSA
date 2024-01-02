@@ -9,6 +9,7 @@ The Repository is divided into several sections that cover the following topics:
     <li>Introduction to C++ </li>
     <li>Variables and Data Types </li>
     <li>Control Structures (if-else, loops, etc.)</li>
+    <li>Bitwise Operators,Operator Precedence & Variable Scoping</li>
     <li>Functions</li>
     <li>Arrays and Strings</li>
     <li>Pointers and References</li>
