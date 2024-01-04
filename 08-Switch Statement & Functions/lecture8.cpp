@@ -168,12 +168,157 @@
 //     }
 // }
 
-// Funtion of Factorial
+// Funtion of NCR
 
-#include<iostream>
+// #include <iostream>
+// using namespace std;
+// // Function of Factorial
+
+// int factorial(int num)
+// {
+//     int ans = 1;
+//     for (int i = 1; i <= num; i++)
+//     {
+//         ans = ans * i;
+//     }
+//     return ans;
+// }
+
+// // Function of Ncr
+// int ncr(int n, int r)
+// {
+//     int numerator = factorial(n);
+//     int denomiator = factorial(r) * factorial(n - r);
+//     int fact = numerator / denomiator;
+//     return fact;
+// }
+
+// int main()
+// {
+//     int n;
+//     cout << "Enter the Value of n : ";
+//     cin >> n;
+//     int r;
+//     cout << "Enter the Value of r : ";
+//     cin >> r;
+//     int ans = ncr(n, r);
+//     cout << ans;
+// }
+
+// Function of Table
+
+// #include <iostream>
+// using namespace std;
+// void couting(int n)
+// {
+//     for (int i = 1; i <= 10; i++)
+//     {
+//         int ans = n * i;
+//         cout << ans << " ";
+//     }
+//     cout << endl;
+// }
+// int main()
+// {
+//     int n;
+//     cout << "Enter the Number of Table : ";
+//     cin >> n;
+//     couting(n);
+// }
+
+// Function of Prime or Even
+
+// #include <iostream>
+// using namespace std;
+// bool isprime(int n)
+// {
+//     for (int i = 2; i < n; i++)
+//     {
+//         if (n % i == 0)
+//         {
+//             return 0;
+//         }
+//         return 1;
+//     }
+// }
+
+// int main()
+// {
+//     int n;
+//     cout << "Enter the Number of : ";
+//     cin >> n;
+//     int ans = isprime(n);
+//     cout << ans;
+// }
+
+// Home-work
+
+// #include <iostream>
+// using namespace std;
+// int fb(int n)
+// {
+//     int num1 = 0;
+//     int num2 = 1;
+//     int ans;
+//     cout << num1 << " " << num2;
+//     for (int i = 3; i <= n; i++)
+//     {
+//         ans = num1 + num2;
+//         cout << " " << ans << " ";
+//         num1 = num2;
+//         num2 = ans;
+//     }
+//     cout << endl;
+// }
+// int main()
+// {
+//     int n;
+//     cout << "Enter the Number : ";
+//     cin >> n;
+//     fb(n);
+// }
+
+// int ap(int n)
+// {
+//     int ans = 3 * n + 7;
+//     return ans;
+// }
+// int main()
+// {
+//     int n;
+//     cout << "Enter the Number : ";
+//     cin >> n;
+//     int newans = ap(n);
+//     cout << "Your Nth Value is " << newans << endl;
+// }
+
+#include <iostream>
 using namespace std;
+// 1=>
+
+// void update(int a)
+// {
+//     a = a / 2;
+//     cout << a << endl;
+// }
+// int main()
+// {
+//     int a = 10;
+//     update(a);
+//     cout << a << endl;
+// }
 
 
-int main (){
+// 2=>
 
-}
+// int update(int a)
+// {
+//     a = a - 5;
+//     return a;
+// }
+// int main()
+// {
+//     int a = 15;
+//     int ans =update(a);
+//     cout << ans << endl;
+// }
